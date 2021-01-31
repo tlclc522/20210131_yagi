@@ -275,8 +275,10 @@ div#contents {
     font-size: 16px;
     color: #fff;
     top: 28%;
-    left: 115px;
     z-index: 1;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 #contents .imgarea img {
@@ -598,8 +600,9 @@ small {
   }
 
   #contents .textarea{
-    top: 36%;
-    left: 10%;
+    left: 0;
+    right: 0;
+    margin: auto;
   }
 
   #contents02 .little-contents .textarea{
