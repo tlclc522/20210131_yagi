@@ -265,7 +265,7 @@ div#contents {
     position: relative;
     justify-content: space-around;
     background-color: #000;
-    height: 500px;
+    height: 600px;
     color: #fff;
 }
 
@@ -310,7 +310,7 @@ div#contents {
     margin-top: 30px;
 }
 
-div#contents02 {
+#contents02 {
     margin-top: 10%;
     height: 1400px;
     background-color: #e4e5e6;
@@ -520,25 +520,20 @@ div#contents02 {
     top: 20%;
     left: 20%;
 }
-
 .contactarea .title {
     font-size: 30px;
     text-align: center;
     margin: 20px;
 }
-
 .contactarea p {
     margin-bottom: 40px;
 }
-
 .contactarea .text {
     font-size: 30px;
 }
-
 .contactarea .contact-text {
     font-size: 12px;
 }
-
 .contactarea a {
     display: inline-block;
     color: #fff;
@@ -589,4 +584,63 @@ h1.footer-logo {
 small {
     color: #fff;
     font-size: 12px;
+}
+
+@media screen and (min-width:2560px){
+  #main {
+    height: 1350px;
+  }
+
+  #contents .imgarea {
+    width: 35%;
+    bottom: -16%;
+    right: 145px;
+  }
+
+  #contents .textarea{
+    top: 36%;
+    left: 10%;
+  }
+
+  #contents02 .little-contents .textarea{
+    left: 32%;
+    top: 248px;
+    height: 250px;
+    width: 30%;
+  }
+
+  #contents02 .little-contents .imgarea {
+    width: 45%;
+    
+  }
+
+  #contents02 .little-contents02 .imgarea {
+    top: 900px;
+    width: 45%;
+  }
+
+  #contents02 .little-contents02 .textarea {
+    top: 1150px;
+    right: 700px;
+    height: 250px;
+    width: 30%;
+  }
+
+  #contents02 {
+    height: 2000px;
+  }
+
+  .contactarea {
+    left: 31%;
+  }
+
+  #contents03 .company {
+    right: 45%;
+  }
+
+  #contents03 .recruit {
+    right: 45%;
+  }
+
+
 }
