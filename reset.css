@@ -520,7 +520,9 @@ div#contents {
     position: absolute;
     text-align: center;
     top: 20%;
-    left: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 .contactarea .title {
     font-size: 30px;
